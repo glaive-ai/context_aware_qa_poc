@@ -1,0 +1,32 @@
+{
+    "Google_NQ": {
+        "correctness": 62.5,
+        "rejection_rate": 51.28205128205128,
+        "source_metrics": {
+            "precision": 92.5,
+            "recall": 95.0,
+            "f1": 93.33333333333334
+        },
+        "hallucination_rate": 34.91379310344828
+    },
+    "MSMarco": {
+        "correctness": 85.0,
+        "rejection_rate": 7.5,
+        "source_metrics": {
+            "precision": 17.413127413127416,
+            "recall": 62.16216216216216,
+            "f1": 26.093951093951098
+        },
+        "hallucination_rate": 95.0
+    },
+    "MuSiQue": {
+        "correctness": 60.0,
+        "rejection_rate": 32.5,
+        "source_metrics": {
+            "precision": 68.51851851851852,
+            "recall": 54.01234567901234,
+            "f1": 58.42151675485008
+        },
+        "hallucination_rate": 35.4
+    }
+}
