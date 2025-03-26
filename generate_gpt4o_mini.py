@@ -1,7 +1,7 @@
 from transformers import AutoTokenizer,AutoModelForCausalLM
 import pandas as pd
 from tqdm import tqdm
-from utils import GPT_4O_MINI_SYSTEM_PROMPT,JUDGE_SYSTEM_PROMPT,get_client,infer,local_infer
+from utils import GPT_4O_MINI_SYSTEM_PROMPT,JUDGE_SYSTEM_PROMPT,get_client,infer
 import json
 from concurrent.futures import ThreadPoolExecutor
 import threading
